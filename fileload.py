@@ -65,10 +65,14 @@ def dataload_range(basename, initial, final, outtype = 'pandas'):
                 output of the oscilloscope.
             
             initial-parameter: (Integer)
-            ::: The file number which to begin the extraction.
+                ::: The file number which to begin the extraction.
             
             final-parameter: (Integer)
-            ::: The file number which to end the extraction.
+                ::: The file number which to end the extraction.
+            
+            outtype-parameter: (string)
+                ::: This parameter is either pandas or numpy and corresponds to the
+                data type of the output.
     """
     data = ()
     head = ()
